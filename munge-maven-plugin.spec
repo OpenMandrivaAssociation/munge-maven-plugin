@@ -1,4 +1,4 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           munge-maven-plugin
 Version:        1.0
 Release:        1.0%{?dist}
@@ -53,3 +53,7 @@ This package provides %{summary}.
 
 %files javadoc -f .mfiles-javadoc
 %doc LICENSE
+
+%changelog
+* Tue Sep 10 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.0-1
+- Initial packaging
