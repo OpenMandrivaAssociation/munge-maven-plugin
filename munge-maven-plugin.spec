@@ -4,7 +4,7 @@ Version:        1.0
 Release:        1.0%{?dist}
 Summary:        Munge Maven Plugin
 License:        CDDL
-URL:            http://github.com/sonatype/munge-maven-plugin
+URL:            https://github.com/sonatype/munge-maven-plugin
 BuildArch:      noarch
 
 Source0:        https://github.com/sonatype/munge-maven-plugin/archive/munge-maven-plugin-1.0.tar.gz
